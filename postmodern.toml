@@ -1,0 +1,96 @@
+"type" = "fg3"
+"type.enum.variant" = "accent"
+
+"constructor" = "fg1"
+
+"constant" = "accent"
+"constant.character" = "fg1"
+"constant.character.escape" = "fg1"
+
+"string" = "accent"
+"string.regexp" = "prime"
+"string.special" = "prime"
+
+"comment" = { fg = "com", modifiers = ["italic"] }
+
+"variable" = "fg1"
+"variable.parameter" = "fg1"
+"variable.builtin" = "fg1"
+"variable.other.member" = "fg1"
+
+"label" = "prime" # used for lifetimes
+
+"punctuation" = "fg3"
+
+"keyword" = "prime"
+"operator" = "fg3"
+
+"function" = "fg1"
+"function.builtin" = "fg1"
+"function.macro" = "fg1"
+
+"tag" = "prime"
+
+"namespace" = { fg = "fg3", modifiers = ["italic"] }
+
+"special" = "fg1" # fuzzy highlight
+
+"diff.plus" = "accent"
+"diff.minus" = "prime"
+"diff.delta" = "fg3"
+
+"ui.background" = { fg = "fg1", bg = "bg1" }
+
+"ui.linenr" = { fg = "fg3" }
+"ui.linenr.selected" = { fg = "fg1" }
+
+"ui.statusline" = { fg = "fg1", bg = "bg1" }
+"ui.statusline.inactive" = { fg = "fg3", bg = "bg1" }
+"ui.statusline.normal" = { fg = "fg1", bg = "bg1", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "fg1", bg = "bg1", modifiers = ["bold"]  }
+"ui.statusline.select" = { fg = "fg1", bg = "bg1", modifiers = ["bold"]  }
+
+"ui.popup"  = { fg = "fg1", bg = "bg1" }
+"ui.window" = { fg = "fg1" }
+"ui.help" = { fg = "fg1", bg = "bg1" }
+
+"ui.text" = "fg1" 
+"ui.text.focus" = { fg = "fg1", bg = "bg1", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "bg3" }
+
+"ui.virtual" = "fg1"
+"ui.virtual.ruler" = { bg = "bg1" }
+"ui.virtual.indent-guide" = "fg3"
+
+"ui.cursor" = { fg = "bg1", bg = "fg1" }
+"ui.cursor.match" = { fg = "fg1", modifiers = ["underlined"] }
+"ui.cursorline.primary" = { bg = "fg1" }
+
+"ui.highlight" = { bg = "bg1" }
+
+"ui.menu" = { fg = "fg1", bg = "bg2" }
+"ui.menu.selected" = { fg = "accent", bg = "bg2", modifiers = ["bold"] }
+"ui.menu.scroll" = "fg3"
+
+diagnostic = { modifiers = ["underlined"] }
+
+error = "err"
+warning = "war"
+info = "inf"
+hint = "hin"
+
+[palette]
+bg1 = "#14161A"
+fg1 = "#CBD7E6"
+fg2 = "#4F5A69"
+fg3 = "#626C7A"
+bg2 = "#272D34"
+bg3 = "#323943"
+com = "#929bed"
+accent = "#5FB7C8"
+prime  = "#DF4987"
+err = "#C13535"
+war = "#F0C674"
+inf = "#679DCB"
+hin = "#A6ADEF"
